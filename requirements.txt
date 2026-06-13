@@ -1,5 +1,2 @@
+# 클라우드(Streamlit Cloud) 빌드용 — 앱은 results.json만 읽으므로 streamlit만 필요
 streamlit>=1.36
-finance-datareader>=0.9.20
-pandas>=2.0
-numpy>=1.24
-lxml>=4.9
