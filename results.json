@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-06-14 00:58",
+  "index": {
+    "KOSPI": 4.63,
+    "KOSDAQ": 3.22
+  },
+  "candidate_count": 4,
+  "results": [
+    {
+      "code": "012750",
+      "name": "에스원",
+      "market": "KOSPI",
+      "close": 88700,
+      "change_pct": 15.65,
+      "amount": 26167318950,
+      "score": 80,
+      "reasons": [
+        "거래량 3.2배 급증",
+        "고점 마감(종가위치 88%)",
+        "5일선 위",
+        "정배열(종가>5>20일선)"
+      ]
+    }
+  ],
+  "guide": {
+    "target": 4.0,
+    "stop": -3.0
+  },
+  "backtest": {
+    "n": 420,
+    "win_rate": 55.5,
+    "mean": 1.08,
+    "median": 0.31,
+    "yearly": [
+      {
+        "year": 2024,
+        "mean": 0.32,
+        "n": 104,
+        "win": 46
+      },
+      {
+        "year": 2025,
+        "mean": 0.9,
+        "n": 211,
+        "win": 55
+      },
+      {
+        "year": 2026,
+        "mean": 2.19,
+        "n": 105,
+        "win": 67
+      }
+    ]
+  }
+}
